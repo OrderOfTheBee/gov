@@ -1,22 +1,18 @@
 Dear __member__,
 
-Thanks for participating in the Board Elections of the Order of the Bee.
-
-You vote has been registered with the following checksum:
+Thanks for voting. Your vote has been registered with the following checksum:
 
 __checksum__
 
-Once the voting period has finished, your vote will appear on the following
-directory:
+You can use that checksum to verify your vote once the voting period has
+finished.
 
-https://github.com/OrderOfTheBee/gov/tree/master/elections-2018/votes
-
-according to the following explanation:
+More details about recording votes here:
 
 https://github.com/OrderOfTheBee/gov/blob/master/elections-2018/vote_explained.md
 
-That means that you can verify that your vote has been correctly registered with
-your checksum.
+Remember that you can still change your vote while the voting period is running.
+In such case the checksum and random key will also change.
 
 Thanks for your participation,
 Boriss and the Elections Team.
