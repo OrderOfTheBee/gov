@@ -27,8 +27,9 @@ def register_vote(filename, candidates):
         data = line.split('.')
         priority = data[0]
         if priority.isdigit():
-            candidate = data[1].split(' ')[-1].lower().strip()
+            candidate = data[1].strip().split(' ')[-1].lower().strip()
             if candidate in candidates:
+                print(candidate)
                 candidates[candidate]['votes'] += 1
                 candidates[candidate]['agg_prior'] += int(priority)
             else:
