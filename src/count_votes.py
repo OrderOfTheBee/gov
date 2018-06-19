@@ -24,12 +24,11 @@ def load_candidates():
 def register_vote(filename, candidates):
     print("Processing: %s" % filename)
     for line in open(filename):
-        data = line.split('.')
+        data = line.split('.', 1)
         priority = data[0]
         if priority.isdigit():
             candidate = data[1].strip().split(' ')[-1].lower().strip()
             if candidate in candidates:
-                print(candidate)
                 candidates[candidate]['votes'] += 1
                 candidates[candidate]['agg_prior'] += int(priority)
             else:
